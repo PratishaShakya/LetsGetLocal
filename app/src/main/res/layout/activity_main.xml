@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <ViewFlipper
+        android:id="@+id/v_flipper"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/v_flipper"/>
+        android:layout_alignBottom="@+id/drawer_layout"
+        android:layout_marginBottom="357dp" />
 
 <android.support.v4.widget.DrawerLayout
     android:id="@+id/drawer_layout"
